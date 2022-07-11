@@ -82,3 +82,46 @@ console.log(printAllPairs(5));
 // 3. Accessing elements in an array (by index) or object (by key) is constant runtime
 
 // 4. In a loop, the complexity is the length of the loop times the complexity of whever happens inside of the loop
+
+
+// ----- SPACE COMPLEXITY -----
+
+// Otherwise known as auxiliary space complexity
+// refers to the space required by the algo
+// not including the space taken up by the inputs
+
+//unless otherwise noted, when we discuss space complexity in these lessons, we'll be talking about auxiliary space complexity
+
+// Javascript Space Complexity rules of thumb
+// most primatives are constance space (booleans, numbers, undefined, null)
+// strings require O(n) space where n is string length 
+// reference types are generally o(n) where n is the length (for arrays) or the number of kets (for objects) 
+
+// this example focuses on SPACE complexity
+
+function spaceSum(arr){
+  let total = 0;
+  for (let i = 0; i < arr.length; i++) {
+    total += arr[i];
+  }
+  return total;
+}
+console.log(spaceSum([1, 2, 3]));
+
+// so this function takes up constant space
+//we have two numbers
+// the total and the i in the for loop
+
+function double(arr){
+  let newArr = [];
+  for(let i =0; i<arr.length; i++){
+    newArr.push(2 * arr[i]);
+  }
+  return newArr;
+}
+console.log("Space Section -- Function: Double", double([1, 2, 3]));
+
+// the new array is being set
+// the new array becomes longer and longer in accordance to the input
+// O(n) space
+
