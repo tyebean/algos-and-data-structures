@@ -24,8 +24,32 @@ console.log(addUpTo2(6));
 
 //Instead of computing the amount of seconds that it takes for a function to run, we can count the amount of operations that are happening.
 
-//There are 3 calculations/simple operations that are happeniong in addUpToTwo2
+//There are 3 calculations/simple operations that are happeniong in addUpTo2
 
-//In addUpToZTwo, there are n operations. We don't want to focus on how many operations this one does, because it changes as n changes since this function contains a LOOPY LOOP. That's kind of aweful!
+//In addUpTo, there are n operations. We don't want to focus on how many operations this one does, because it changes as n changes since this function contains a LOOPY LOOP. That's kind of aweful!
 //If n is 20, we'd loop over 20 -- 20 times. 🙀🙀🙀
+
+// ---------------------------------------------------
+
+// Introducing Big O Notation
+// Big O allows us to formally talk about how the runtime of an algo grows as the inputs grow
+// Big O Notation talks about the worst case
+
+// addUpTo2 always has 3 operations O(1)
+// addUpTo has a number of operations that is always bounded by a multipul of n (say,  10n) -- O(n)
+
+//Another example of 0(n)
+
+function countUpAndDown(n) {
+  console.log("Going up!");
+  for (let i = 0; i < n; i++) {
+    console.log(i);
+  }
+  console.log("At the top! Going down...");
+  for (let j = n - 1; j >= 0; j--) {
+    console.log(j);
+  }
+  console.log("At the bottom. Bye!");
+}
+console.log(countUpAndDown(11));
 
