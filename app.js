@@ -43,13 +43,42 @@ console.log(addUpTo2(6));
 function countUpAndDown(n) {
   console.log("Going up!");
   for (let i = 0; i < n; i++) {
-    console.log(i);
+    console.log("i is", i);
   }
   console.log("At the top! Going down...");
   for (let j = n - 1; j >= 0; j--) {
-    console.log(j);
+    console.log("j is", j);
   }
   console.log("At the bottom. Bye!");
 }
 console.log(countUpAndDown(11));
 
+function printAllPairs(n) {
+  for (let i = 0; i < n; i++) {
+    for(let j = 0; j < n; j++) {
+      console.log("Printing all Pairs!", i, j);
+    }
+  }
+}
+console.log(printAllPairs(5));
+
+// O(n+10) 👎     O(n) 👍🏽
+// O(1000n + 50) 👎      O(n) 👍🏽
+// If we zoom out all the way out as far as we could possibly go--
+//For instance, imagine we plug in 1 Billion for n
+  //multiplying 1000 by n wouldn't matter
+  //adding 50 wouldn't matter
+// We can shorten it because smaller terms don't always matter when talking about Big O
+
+// 1. Arithmetic operations are constant runtime and take roughly the same amount of time
+  // 2 + 2 
+  // 1,000,000 + 2
+
+// 2. Variable assignment is constant runtime
+// let x = 1,000,000
+// let x = 1
+// let arr = [1, 2, 3, ..., 1,000,000]
+
+// 3. Accessing elements in an array (by index) or object (by key) is constant runtime
+
+// 4. In a loop, the complexity is the length of the loop times the complexity of whever happens inside of the loop
