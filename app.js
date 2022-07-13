@@ -206,3 +206,43 @@ let values = [true, {}, [], 2, "awesome"];
 // It's good if we need order
 // Can be costly for some of these operations
 
+// if you're just trying to store data, objects would be better preformance wise
+
+// *** !!! i can apply this to things i have learned while enrolled at GA !! ...
+// ... we worked with APIs, which most commonly used objects to store data
+// i remember we were playing with APIs after class and we voted on using an Animal Crossing New Horizons API. That API used arrays instead of objects and our instructor (shout out to Ben) went OFF 
+
+// O.K. back to arrays tho
+
+// when you search through an array using an index, u can just jump right to that index
+
+// with arrays, however, things can become tricky when 
+// inserting
+// and
+// removing
+
+// things from the array
+
+// Insertion - it depends
+// Removal - it depends
+// Searching - o(n)
+// Access - o(1)
+
+// inserting at the end of the array is fiiiine
+// it happens just like it would an object
+
+// BUT !! inserting at the beggining of an array can be cumbersome
+
+// the problem is with the indecies 
+// we have to reindex ever single element in the array
+
+// insert and removal @ end o(1) time
+// insert and removal @ front o(n) time
+
+// it shouldnt be avoided, it's just good to be aware of this change
+
+// push and pop are faster than shift and unshift
+
+// ---- Array Methods ----
+// because why not
+
