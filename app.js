@@ -119,9 +119,31 @@ function double(arr){
   }
   return newArr;
 }
-console.log("Space Section -- Function: Double", double([1, 2, 3]));
+console.log("Space Complexity Double", double([1, 2, 3]));
 
 // the new array is being set
 // the new array becomes longer and longer in accordance to the input
 // O(n) space
 
+// ----- Logarithm Complexity -----
+
+// log time complexity is great
+// with constant time being the best --> 0(1) ...
+// ... O(log n) is pretty good too
+
+// while
+// O(n log n)
+// is NOT the absolute best
+// it's actually one of the two worst
+// it's ranks better than 
+// O(n^2)
+// with O(n^2) being the stinkiest
+
+// ? Where will logarithmic time complexity show up? ------------ 
+// - Certain search algorithms
+// - Efficient sorting algorithms
+// - Recursion sometimes involves logarithmic space complexity
+
+// ------- Big O Notation Recap --------
+
+// 
