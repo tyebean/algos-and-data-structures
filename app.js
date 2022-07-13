@@ -146,4 +146,63 @@ console.log("Space Complexity Double", double([1, 2, 3]));
 
 // ------- Big O Notation Recap --------
 
-// 
+// We use Big O to analize the preformance of an algorithm
+
+// We use Big O Notation to give us a high level understanding of the time or space complexity of an algorithm
+
+// Big O Notation cares about general trends. 
+// Is the algorithm linear, quadratic, constant?
+
+// Big O depends only on the algorithm and not the machine running the algorithm, like when thinking about how fast it takes to compute an algo
+
+// --- The Big O of Objects ---
+
+let ally = {
+  firstName: "June",
+  isElf: true,
+  favoriteNumbers: [1,2,3,4]
+}
+console.log(ally);
+
+// In the context of Big O
+// Objects work well when u dont need order
+// You don't need fast access, incertain, removal, accessing data
+
+// JS can add, store, and retrieve, update, and remove something in constant time
+
+// Insertion - o(1)
+// Removal - o(1)
+// Searching - o(n)
+// Access - o(1)
+
+Object.entries(ally)
+// o(n)
+// grows exponentially in relation to n
+ally.hasOwnProperty("firstname")
+// returns true
+// is constant time
+// o(1)
+
+// objects are #basic
+// all constant time aside from searching so it's o(n)
+
+// Big O of Object Methods
+
+// Object.keys - o(N)
+// Object.values - o(N)
+// Object.entries o(N)
+// hasOwnProperty o(1)
+
+// ------ Big O of Arrays ------
+
+// Ordered lists!
+
+let names = ["Tye", "Jacob", "Lexie", "Dylan"];
+// those are my room mates ^^ :)
+
+let values = [true, {}, [], 2, "awesome"];
+
+// Arrays are ordered by nature
+// It's good if we need order
+// Can be costly for some of these operations
+
