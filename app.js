@@ -18,8 +18,8 @@ console.log(addUpTo2(6));
 //What is better? Speed, less memory-intensive? Most legible?
 //Depends on the project, but speed and memory is most important
 
-//You can check the speed of your code-- not very reliable though, because every machine will compute these functions differently 
-  //The SAME machine can record time differently too so there's that
+//You can check the actual speed/time it takes to run your code in miliseconds-- not very reliable though, because every machine will compute these functions differently 
+  //The SAME machine can record time differently too 
 //It can also difficult to quantify
 
 //Instead of computing the amount of seconds that it takes for a function to run, we can count the amount of operations that are happening.
@@ -69,7 +69,6 @@ console.log(printAllPairs(5));
   //multiplying 1000 by n wouldn't matter
   //adding 50 wouldn't matter
 // We can shorten it because smaller terms don't always matter when talking about Big O
-
 // 1. Arithmetic operations are constant runtime and take roughly the same amount of time
   // 2 + 2 
   // 1,000,000 + 2
@@ -256,3 +255,21 @@ let values = [true, {}, [], 2, "awesome"];
 // sort - o(n*log N)
 // forEach/map/filter/reduce/ect - o(n)
 
+//logarithms
+
+//"waiiit, what's a log?"
+
+// log2(8) = 3 -----> 2^3
+//log₂(value) = exponent ----> 2^exponent=value
+
+// we'll omit the subscript #2
+//so basically
+// log === log₂
+
+// "this isn't a math course, so here's a rule of thumb"
+
+// "the logarithm of a number roughly measures the number of times you can divide that number by 2 before you get a value that's less than or equal to one."
+
+// Logarithm Examples
+
+// say you have the number 8
