@@ -246,3 +246,13 @@ let values = [true, {}, [], 2, "awesome"];
 // ---- Array Methods ----
 // because why not
 
+// push - o(1) constant 
+// pop - o(1) constant
+// shift - o(n) have to reindex everything
+// unshift - o(n) have to reindex everything
+// concat - o(n) linear
+// slice - o(n) linear
+// splice - o(n) linear
+// sort - o(n*log N)
+// forEach/map/filter/reduce/ect - o(n)
+
