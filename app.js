@@ -331,8 +331,45 @@ let values = [true, {}, [], 2, "awesome"];
 // INTERVIEWS!
 
 // How do you improve?
+// this course is structured around how to improve
+// it comes naturally to some people, and other people need to work at it
+// one of this guy's clients had a panic the first time he had to solve a new problem, then 2 weeks later, sat down quietly and calmly to solve the problem. 
+//*  a two week turn around is super inspiritng! * 
+
+// ! resourse
+// a lot of these strats are adapted from George Polya, whose book
+// How to Solve It
+// is a great resouse for anyone who wants to become a better problem solver
 
 // Step 1: Understand the Problem
+// can you restate the problem in your own words? 
+// make it make sense to yourself and to others?
+// what are the inputs and outputs 
+// do we have enough info to some the problem?
+// how should i label important peices of data that are part of the problem
+
+// Write a function which takes two numbers and returns their sum
+
+// 1. restate in your own words, make sure you understand the problem
+// 'impliment addition'
+// 'add two numbers together'
+
+// 2. then ask yourself - what are the imputs that go into the problem? 
+// here, we can ask a lot of different questions:
+  // personal note: 
+    // these questions might not be too important to ask for this specific problem, but it's important to show that you're cognisent of these questions and possibilities! 
+// what happens if one of the inputs is blank?
+// is there a min and max for the number, ie, can this be a 1 or 1,000,000 diget number?
+// what happens if javascript gives up and returns 'infinity'?
+// can/should this be a 'float'?
+// can we return a string if we're doing massive addition?
+
+// 3. what are the outputs that should come from the solution to the problem?
+// integer? string? float?(?)
+// undefined? null?
+// some interviewers might tell you to ignore that part.
+
+
 // Step 2: Concrete Examples
 // Step 3: Break it Down
 // Step 4: Solve or Simplify
