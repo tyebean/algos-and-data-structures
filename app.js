@@ -138,7 +138,7 @@ console.log("Space Complexity Double", double([1, 2, 3]));
 // O(n^2)
 // with O(n^2) being the stinkiest
 
-// ? Where will logarithmic time complexity show up? ------------ 
+// * Where will logarithmic time complexity show up? ------------ 
 // - Certain search algorithms
 // - Efficient sorting algorithms
 // - Recursion sometimes involves logarithmic space complexity
@@ -153,6 +153,14 @@ console.log("Space Complexity Double", double([1, 2, 3]));
 // Is the algorithm linear, quadratic, constant?
 
 // Big O depends only on the algorithm and not the machine running the algorithm, like when thinking about how fast it takes to compute an algo
+
+// ? SECTION 3 - Analizing Preformance of Arrays and Objects
+
+// Understand how objects and arrays work, through the lense of Big O
+// Explain why adding elements to the begining of an array is costly
+// Compare and contrast the runtime for arrays and objects, as well as built in methods [ex. ...forEach]
+
+// We're just applying what we already know about Big O to something tangible
 
 // --- The Big O of Objects ---
 
@@ -255,7 +263,7 @@ let values = [true, {}, [], 2, "awesome"];
 // sort - o(n*log N)
 // forEach/map/filter/reduce/ect - o(n)
 
-//logarithms
+// ?  Logarithms and Section 2 Recap
 
 //"waiiit, what's a log?"
 
@@ -293,3 +301,44 @@ let values = [true, {}, [], 2, "awesome"];
 // -- Certain searcing algos have logarithmc time complexity
 // -- Effcient sorting algorithms involve logarithms
 // -- Recursion sometimes involves logarithmic space complexity
+
+// *** Section 4: Problem Solving Approach
+
+
+// ?? Introduction to Problem Solving
+
+// Objectives
+// @ define what an algo is
+// @ devise a plan to solve algorithms
+// @ compare and contrast problem solving patterns including
+  // -- frequency counters
+  // -- two pointer problems
+  // -- divide and conquer
+
+// what is an aglorithm?
+// a process or set of steps to acomplish a certain task.
+// examples
+// a supppper cool algorithm used to make the vibrations in a toothbrush! woooow
+// the algorithms that facebook uses to give us ads
+// google's search algorithms -- probably 100 developers working together to refine a search algorithm
+// just a set of steps to acomplish a task
+// instagram's algorithm to show you posts in chronological order, which they changed and now you get to miss all of your friend's posts!
+
+// Why do I need to know this?
+// Almost everything you do in programming involves some sort of algorithm! 
+// it's the foundation for being a successful problem solver and developer
+//it's also important for
+// INTERVIEWS!
+
+// How do you improve?
+
+// Step 1: Understand the Problem
+// Step 2: Concrete Examples
+// Step 3: Break it Down
+// Step 4: Solve or Simplify
+// Step 5: Look Back and Refactor
+// Recap and Interview Strategies
+
+
+// *** Section 5: Problem Solving Patterns
+
