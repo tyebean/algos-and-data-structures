@@ -273,3 +273,23 @@ let values = [true, {}, [], 2, "awesome"];
 // Logarithm Examples
 
 // say you have the number 8
+// 8 divided by 2
+// u get 4
+// 4 divided by 2
+// u get 2
+// 2 divided by 2
+// u get one
+
+//you do that process three times
+// ... 'that process' being, dividing by 2
+
+//so the log is 
+//log(8)=3
+
+//logarithmic time complexity is great!
+
+// Why do we care about logarithms?
+
+// -- Certain searcing algos have logarithmc time complexity
+// -- Effcient sorting algorithms involve logarithms
+// -- Recursion sometimes involves logarithmic space complexity
