@@ -341,7 +341,8 @@ let values = [true, {}, [], 2, "awesome"];
 // How to Solve It
 // is a great resouse for anyone who wants to become a better problem solver
 
-// Step 1: Understand the Problem
+// * Step 1: Understand the Problem
+
 // can you restate the problem in your own words? 
 // make it make sense to yourself and to others?
 // what are the inputs and outputs 
@@ -369,8 +370,25 @@ let values = [true, {}, [], 2, "awesome"];
 // undefined? null?
 // some interviewers might tell you to ignore that part.
 
+// 4. how should i label the pieces of data that are part of the problem?
 
-// Step 2: Concrete Examples
+
+// * Step 2: Concrete Examples
+// Examples can provide sanity checks that your eventual solution actually works how it should
+// User stories!
+// Unit Tests - used to lay out how smaller things should work for a new feature
+
+// start with simple examples
+// now that you understand the problem, write a few simple examples with an input and an output
+// they're good to look back at
+// progress to more complex examples
+// explore empty inputs - give a good feel for how edge cases could work
+// real world - think about what happens when a user inputs something that is invalid
+
+// Example to work with:
+// "Write a function which takes in a strong and returns counts of each character in the string."
+
+
 // Step 3: Break it Down
 // Step 4: Solve or Simplify
 // Step 5: Look Back and Refactor
