@@ -386,10 +386,26 @@ let values = [true, {}, [], 2, "awesome"];
 // real world - think about what happens when a user inputs something that is invalid
 
 // Example to work with:
-// "Write a function which takes in a strong and returns counts of each character in the string."
+// "Write a function which takes in a string and returns counts of each character in the string."
 
+// my example for an example return
+charCount("aaaa") // {a:4}
+// this already makes us think of some questions:
+// should we just have {a:4}, or should we have the entire alphabet set to zero, so that we can just tweak the characters that are included?
+charCount("hello") // {h:1, e:1, l:2, o:1}
+// that would be an example of a question that we could try to clairify 
 
 // Step 3: Break it Down
+
+// before we start writing code, we can break it down
+// take actual steps of the problem and write them down
+// doesn't have to be complete pseudocode
+// just write little comments
+// "here are the steps i am going to try to take."
+// ask for hints or tips
+// "do you think that would work?"
+
+
 // Step 4: Solve or Simplify
 // Step 5: Look Back and Refactor
 // Recap and Interview Strategies
