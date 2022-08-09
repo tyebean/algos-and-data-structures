@@ -395,7 +395,7 @@ charCount("aaaa") // {a:4}
 charCount("hello") // {h:1, e:1, l:2, o:1}
 // that would be an example of a question that we could try to clairify 
 
-// Step 3: Break it Down
+// *** Step 3: Break it Down
 
 // before we start writing code, we can break it down
 // take actual steps of the problem and write them down
@@ -444,9 +444,12 @@ function charCount(str){
 
 // return object in the end
 
+// this domonstrates to the interviwer that you know how to bust it down
+// if we get the problem wrong, we can show that we had the right idea
+// you don't need to finish the problem or get the correct return value in the end
+//it's all about the process
 
-
-// Step 4: Solve or Simplify
+// **** Step 4: Solve or Simplify
 
 
 
