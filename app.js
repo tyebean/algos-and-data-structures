@@ -405,8 +405,52 @@ charCount("hello") // {h:1, e:1, l:2, o:1}
 // ask for hints or tips
 // "do you think that would work?"
 
+// this forces you to actually think about the code before you write it
+// clear up any questions or misunderstandings
+
+// write a function which takes in a string and returns counts of each character in the string.
+charCount('aaa')
+charCount('Your PIN number is 1234!')
+
+let expectedOutput = { 
+  1: 1, 
+  2: 1, 
+  3: 3,
+  4: 1,
+  o: 1,
+  b: 1,
+  m: 1,
+  // etc...
+}
+
+// we/our interviewer has decided that uppercase letters in this problem don't matter
+
+function charCount(str){
+  // do something
+    //make object to return in the end
+    //loop over string
+    //return object at end
+  // return an object with keys that are lowercase alphanumeric characters in the string
+}
+
+// the bulk of the logic in this problem involves looping over every item in the object
+// check if there are any of the same elements in our initial object already
+// we start off with an empty object, so it's going to add a Y for 'your PIN is 1234!'
+// and set y to 1
+// if statement:
+  // if the char is [[number/letter]] AND a key in the object, add one to count
+  // if the char is a [[number/letter]] not in object, add it to the object and set value to 1
+  // if the character is something else, (space, period, etc.) don't do anything
+
+// return object in the end
+
+
 
 // Step 4: Solve or Simplify
+
+
+
+
 // Step 5: Look Back and Refactor
 // Recap and Interview Strategies
 
