@@ -460,7 +460,17 @@ function charCount(str){
 //even if you know that theyre's some part of the problem that you might get stuck on, skip to the part of the problem that yopu DO understand and solve that FIRST so that tyou can actually get some code down (on paper) but not really on paper lol
 
 // for example:
-//
+
+function charCount(str) {
+  // make object to return at end
+  // loop over string, for each character...
+    // if the char is a number/letter AND is a key in object, add one to count
+    // if char is a numbner/letter AND not in object, add it to obejct and set value to 1
+    // if character is something else (space, period, etc.) don't do anything
+  //return obejct and the end
+}
+
+
 
 
 // ***** Step 5: Look Back and Refactor
