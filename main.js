@@ -451,10 +451,19 @@ function charCount(str){
 
 // **** Step 4: Solve or Simplify
 
+//solve the problem if you can
+// if you can't, solve a simpler problem
+
+//what this really means is: try to ignore the part of the problem that you're stuck on
+//you want to show something of yourself
+
+//even if you know that theyre's some part of the problem that you might get stuck on, skip to the part of the problem that yopu DO understand and solve that FIRST so that tyou can actually get some code down (on paper) but not really on paper lol
+
+// for example:
+//
 
 
-
-// Step 5: Look Back and Refactor
+// ***** Step 5: Look Back and Refactor
 // Recap and interview Strategies
 
 
