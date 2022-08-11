@@ -470,7 +470,17 @@ function charCount(str) {
   //return obejct and the end
 }
 
+// if, as the interviewee, i get stuck on one of two things:
+  // working with objects and key value pairs
+  // or
+  // working with a loop
+// i could put my focus on either MAKING the object or MAKING the loop work
 
+// if i were working with the object to start off with, i could go ahead and create an object just hard-code in the first five characters in the object
+// then i could add lowercasing to all of the characters, since we are not focused on those uppperccased letters right now
+// i could also code out the IF statement, probably
+// and then, testing the little bit of code i have, i could then find a pattern that would then
+// allow me to start thinking about the loop
 
 
 // ***** Step 5: Look Back and Refactor
@@ -478,4 +488,16 @@ function charCount(str) {
 
 
 // *** Section 5: Problem Solving Patterns
+
+// ***** PROBLEM SOLVING STEPS RECAP *****
+
+// * Make sure you understand the problem
+// ask questions
+// understand inputs/outputs
+// edgecases
+// errors
+// if a user enters something invalid
+// how your solution should function
+
+// * Explore Concrete Examples
 
