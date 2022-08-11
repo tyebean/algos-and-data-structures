@@ -455,7 +455,7 @@ function charCount(str){
 
 
 // Step 5: Look Back and Refactor
-// Recap and Interview Strategies
+// Recap and interview Strategies
 
 
 // *** Section 5: Problem Solving Patterns
