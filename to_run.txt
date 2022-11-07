@@ -1,0 +1,2 @@
+node notes/file_name 
+to run script && see console.logs in terminal
