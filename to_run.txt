@@ -1,2 +1,2 @@
-node notes/file_name 
+node lessons/file_name 
 to run script && see console.logs in terminal
